@@ -1,0 +1,27 @@
+1- When hovering over the image,
+2- change its source attribute to the value specified in the "data-hover" attribute.
+
+
+//  let img = document.getElementsByTagName('img').dataset.hover;
+
+	// console.log(img);
+    // .addEventListener('onmouseover',function(){
+    // 	src = img;
+    // })
+    // console.log(img);
+
+
+
+
+
+
+
+
+
+     let im = document.getElementsByTagName("img");
+ 	//  console.log(im);
+ 	 im.addEventListener("onmouseover",function(){
+ 	 	// im.src = ;
+ 	 	console.log('hi')
+
+ 	 });

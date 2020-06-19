@@ -1,0 +1,17 @@
+1- When you click the button, 
+2- display on the console, one after the other, each value of the array fruits.
+3- Use the forEach method.
+
+
+
+
+
+
+
+
+
+
+fruits.forEach(log);
+    function log (item, index){
+     console.log(index, item);
+    };  // or array

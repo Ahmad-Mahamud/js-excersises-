@@ -1,0 +1,77 @@
+1- On the click to the button,
+2- get the birthdate of the visitor and 
+3- display his/her age.
+
+let day = document.getElementById("dob-day").value;
+    let month = document.getElementById("dob-month").value;
+    let year= document.getElementById("dob-year").value;
+    console.log(year);
+
+
+
+
+
+
+    if(gg < day){
+    		alert();
+    	} else {
+    		alert();
+    	}
+
+
+
+
+  //   	function calculateAge (birthDate, otherDate) {
+		//     birthDate = new Date(birthDate);
+		//      otherDate = new Date(otherDate);
+
+		//     var years = (otherDate.getFullYear() - birthDate.getFullYear());
+
+		//     if (otherDate.getMonth() < birthDate.getMonth() || 
+		//         otherDate.getMonth() == birthDate.getMonth() && otherDate.getDate() < birthDate.getDate()) {
+		//         years--;
+		//     }
+
+		//     return years;
+		// 
+	}
+
+
+	
+    	function calculateAge (birthDate, otherDate) {
+		    birthDate = new Date(birthDate);
+		    otherDate = new Date(otherDate);
+
+		    var years = (otherDate.getFullYear() - birthDate.getFullYear());
+
+		    if (otherDate.getMonth() < birthDate.getMonth() || 
+		        otherDate.getMonth() == birthDate.getMonth() && otherDate.getDate() < birthDate.getDate()) {
+		        years--;
+		    }
+
+		    return years;
+	}
+
+ 			var age = calculateAge("02/24/1991", "02/24/2010"); // Format: MM/DD/YYYY
+
+
+
+
+
+    document.getElementById("run").addEventListener("click", function(){
+    	
+    	// otherDate = 
+    	let day = document.getElementById("dob-day").value;
+    	let month = document.getElementById("dob-month").value;
+    	let year= document.getElementById("dob-year").value;
+    	 
+    	let birthday = ${year}-${month}-${day};
+        let today = new Date();
+        let birthDate = new Date(birthday);
+        let age = today.getFullYear() - birthDate.getFullYear(); // hoe ge iets aftrekt van elkaar met leeftijd
+        var m = today.getMonth() - birthDate.getMonth();
+        if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+            //leeftijd van de gebruiker moet tevoorschijnkomen
+            age = age - 1;
+    	
+    })

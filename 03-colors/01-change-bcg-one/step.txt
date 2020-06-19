@@ -1,0 +1,4 @@
+1- For each button
+2- when clicked 
+3- change the background color of the page 
+4- to the one indicated.

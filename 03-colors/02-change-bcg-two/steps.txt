@@ -1,0 +1,6 @@
+1- When you click the button, 
+2- get the value of the input 
+3 -use it as the background color for the page.
+
+
+

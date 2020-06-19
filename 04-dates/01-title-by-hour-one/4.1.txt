@@ -1,0 +1,65 @@
+1- change the content of the tag
+2- by Hello (if it's before 18h),
+3- or by Good evening.
+
+
+
+
+
+
+
+
+
+
+
+// Using Date() function 
+  var d = Date(); 
+    
+  // Converting the number value to string 
+  a = d.toString()  
+    
+  // Printing the current date 
+  console.log("The current date is: " + a);
+
+
+
+var today = new Date();
+var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+
+
+
+var today = new Date();
+var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+
+
+
+ // let today = new Date();
+    // let date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+    // console.log(date);
+    let today= new Date();
+    let time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+     // console.log(time);
+     document.getElementById("target").addEventListener("click",function(){
+     	if(time <= 18){
+
+     	}
+     		
+     	
+     });
+     	
+     	 function Time() {
+  let today = new Date();
+  let h = today.getHours();
+  let m = today.getMinutes();
+  let = today.getSeconds();
+  m = checkTime(m);
+  s = checkTime(s);
+  // document.getElementById('target').innerHTML =
+  console.log('par');
+  par.value = h + ":" + m + ":" + s;
+  
+}
+
+function checkTime(i) {
+  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+  return i;

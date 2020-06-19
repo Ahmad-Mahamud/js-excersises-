@@ -1,0 +1,47 @@
+1- When you click the button, 
+2- display in the console, one after the other 
+3- (use a loop), each value of the fruits array.
+
+
+
+
+
+
+   // fruits.forEach(log);
+    // function log (item, index){
+    //  console.log(index, item);
+    // };  // or array
+    
+------------------try this way later---------------
+
+    var btns = document.querySelectorAll('button');
+  for (var i = 0; i < btns.length; i++) {
+	console.log('1', btns[i]);
+	btns[i].addEventListener('click', function (event) {
+		console.log('2', btns[i]);
+		console.log('3', event.target);
+	}, false);
+}
+
+
+----------------------------------------------------------------homework-------------------------------------------------------------
+
+    Home work: Analyse UI design of 2 sites
+
+Write 2 pages* about 2 websites and their visual interface. Discuss some aspects on the site that you think have a good and clear User Interface design, and some aspects that can be improved. You can take screenshots but images don’t count for screen space.
+
+Examples:
+
+Colors make it difficult to see certain buttons
+It is not clear where to click
+Search bar is in the middle of the screen, which makes it really quick to search something
+...
+
+Please send them to my mailbox before 9 o’clock Monday. People that are sick on monday have to give it the day they return to class.
+
+If you don’t send anything by the deadline you will not be allowed to join class on Monday.
+
+
+
+
+* No childish requirements of fonts, line height, etc... but if you clearly are cheating, don’t be surprised if you have to do it again.

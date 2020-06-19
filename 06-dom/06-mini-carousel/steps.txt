@@ -1,0 +1,15 @@
+1- When you click the button, 
+2- change the source of the image to the next one listed in the gallery array.
+
+
+
+
+
+// btn.addEventlistener("click",function(){
+    	// 	console.log('hi there');
+
+    	// 	for(let i = 1; i === gallery.length; i++){
+     //            document.getElementById("im").src = gallery[i];
+
+    	// 	};
+   		// });

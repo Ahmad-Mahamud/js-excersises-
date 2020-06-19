@@ -1,0 +1,41 @@
+1- When you click the button, do the following transformations to the array fruits:
+2- remove the first 
+3- and the last element, 
+4- add an element "banana" at the start of the array,
+5- and add an element "kiwi" at the end.
+
+
+
+
+
+
+// console.log(fruits.splice(1, 3, "my fruits"));  // remove 3 items starting from index 1 from array and adds myfruits 
+    // console.log(fruits.sort());  // sorts array alphabetically
+    // console.log(fruits.slice(1, 4));  // slices part of array end -1
+    // console.log(fruits.unshift("caano"));  // adds item at the beginning
+
+     // console.log(fruits.reverse());  // reverses the order of items
+    // fruits.pop();   // remove the last item
+    // fruits.push("kiwi");  // added Kiwi at the end
+
+    // let fruits2 = [
+    //     "mango",
+    //     "Avocados",
+    //     "Fig",
+    //     "Dates",
+    //     "Olive",
+    //     "Papaya",
+    //     "Tamarind",
+    //     "Watermelon",
+    //     "Passion"
+    // ];
+
+    // con = fruits.concat(fruits2);
+    // console.log(con);
+
+    // let str = [
+    //     "a",
+    //     "b",
+    //     "c"
+    // ];
+    // console.log(str.join("")); // joining strings
