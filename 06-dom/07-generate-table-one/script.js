@@ -12,17 +12,19 @@
 (function() {
 
     // your code here
-    let box = document.getElementById('target');
+    let box = document.getElementById('target').innerHTML;
+    
+    function createTable(){
+        let tab = document.createElement("table");
+        box.appendChild(tab);
+        let row = document.createElement("tr");
+        tab.appendChild(row)
+        alert(tab);
+    }
+    
+    
 
-    let tab = document.createElement("table");
-    let row = 10;
-        for (let i = 1; i<=10;i++){
-        	tab += '<tr>';
-        	for (let c = 1;){
-        		tab += ''
-        	}
-        	tab += '</tr>';
-        }
+    
    
 
 })();

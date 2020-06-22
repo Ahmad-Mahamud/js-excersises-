@@ -11,4 +11,9 @@
 
 (() => {
     // your code here
+    document.querySelector('#id').addEventListener("click", function(){
+    	
+
+    })
+
 })();
