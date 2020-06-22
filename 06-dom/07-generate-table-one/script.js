@@ -13,18 +13,18 @@
 
     // your code here
     let box = document.getElementById('target').innerHTML;
-    
-    function createTable(){
-        let tab = document.createElement("table");
-        box.appendChild(tab);
-        let row = document.createElement("tr");
-        tab.appendChild(row)
-        alert(tab);
+    var table = document.createElement("table");
+
+
+    //creating process
+    for (var i = 0; i < 10; i++) {
+        // creates a table row
+        var row = table.insertRow();
+        row.insertCell();
     }
-    
-    
 
+    //adding each row 
+    target.appendChild(table);
     
-   
-
+    
 })();
